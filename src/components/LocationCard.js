@@ -24,7 +24,7 @@ const LocationCard = ({ name, type, dimension, residents }) => (
     <Card.Content description={dimension} />
     <Card.Content extra>
       <Icon name='user' />
-      {residents}
+      {residents} residents
     </Card.Content>
   </Card>
 )

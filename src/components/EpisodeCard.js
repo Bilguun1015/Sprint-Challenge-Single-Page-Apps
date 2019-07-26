@@ -24,7 +24,7 @@ const EpisodeCard = ({ episode }) => (
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
-      {episode.characters.length}
+      {episode.characters.length} episodes
       </Card.Content>
     </Card>
     </Card.Group>
